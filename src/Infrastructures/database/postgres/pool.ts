@@ -15,4 +15,4 @@ const pool =
         ? new Pool(testConfig)
         : new Pool();
 
-module.exports = pool;
+export default pool;
